@@ -2,11 +2,13 @@ import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import TimeSeries from './Components/TimeSeries';
 import SingleSeries from './Components/SingleSeries';
+import TimeSeries_ref from './Components/Timeseries/Timeseries_ref';
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <TimeSeries />
+      <TimeSeries_ref/>
+      {/* <TimeSeries /> */}
       {/* <SingleSeries /> */}
     </View>
   );
